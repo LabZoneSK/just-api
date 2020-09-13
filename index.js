@@ -1,7 +1,7 @@
 const fs = require('fs');
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = process.env.PORT || 5000;
 
 const axios = require('axios');
 const xml2js = require('xml2js');
