@@ -78,6 +78,6 @@ app.get('/fred', (req, res) => {
     });
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log('API has started.');
 })
