@@ -70,8 +70,9 @@ app.get('/fred', (req, res) => {
                         MZM: observations.MZM
                     });
                 })
-    
-                res.send(csvStringifier.stringifyRecords(results));
+
+                res.attachment('observations.csv');
+                return res.send(csvStringifier.stringifyRecords(results));
     
             })
         })
