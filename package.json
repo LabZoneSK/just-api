@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node api-gw.js",
-    "dev": "nodemon api-gw.js",
+    "dev": "node ./node_modules/nodemon/bin/nodemon api-gw.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Starosta",
@@ -17,5 +17,8 @@
     "moleculer": "^0.14.10",
     "moleculer-web": "^0.9.1",
     "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
