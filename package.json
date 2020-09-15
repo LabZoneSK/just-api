@@ -4,8 +4,8 @@
   "description": "Some fucking API",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
+    "start": "node api-gw.js",
+    "dev": "nodemon api-gw.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Martin Starosta",
@@ -14,6 +14,8 @@
     "axios": "^0.20.0",
     "csv-writer": "^1.6.0",
     "express": "^4.17.1",
+    "moleculer": "^0.14.10",
+    "moleculer-web": "^0.9.1",
     "xml2js": "^0.4.23"
   }
 }
